@@ -136,7 +136,7 @@ let getAPI = async (lat, lon) => {
   // Met de fetch API proberen we de data op te halen.
   // Als dat gelukt is, gaan we naar onze showResult functie.
   const data = await getData(
-    `http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=bc036cebf152fd2fd4034f04ba9be57a&units=metric&lang=nl&cnt=1`
+    `http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=31fea691686933c4c7c9a60320ade81c&units=metric&lang=nl&cnt=1`
   );
   console.log(data);
   showResult(data);
